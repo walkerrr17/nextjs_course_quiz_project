@@ -1,40 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 🧠 Next.js Quiz Web App
 
-## Getting Started
+A sleek, simple, and functional Quiz Web App built with [Next.js](https://nextjs.org). Test your knowledge, and challenge yourself with a clean and intuitive interface!
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Dynamic Questions**: Quiz questions are never in the same order twice, along with their answers.
+- **Cool Design**: Looks great.
+- **Lightning Fast**: Powered by the speed and efficiency of Next.js.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- **Framework**: [Next.js](https://nextjs.org)
+- **Styling**: [CSS Modules](https://nextjs.org/docs/basic-features/built-in-css-support)
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 🎮 How It Works
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+1. The app presents a series of questions.
+2. Select your answer and get immediate feedback.
+3. Aim for the perfect score!
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 File Structure
 
-## Learn More
+nextjs-quiz-app/
+├── components/ # Reusable UI components
+├── pages/ # Application routes
+│ ├── index.js # Main quiz page
+│ ├── api/ # API Folder
+├── public/ # Static assets
+├── styles/ # CSS Modules
+├── package.json # Project metadata and scripts
+└── README.md # You're here!
 
-To learn more about Next.js, take a look at the following resources:
+## 🤝 Context
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+This was made during a Udemy course, and as such this is just for show and practice, you're free to study the code.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📜 License
 
-## Deploy on Vercel
+This project is licensed under no license.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 💡 Future Plans
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+I might add more to this project later on, but as of now, this is it.
+
+---
+
+Made with ❤️ using [Next.js](https://nextjs.org).
