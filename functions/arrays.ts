@@ -1,6 +1,6 @@
-export function shuffleNumbers(numbers: any[]): any[] {
-  return numbers
-        .map(number => ({ number, randomFactor: Math.random() }))
-        .sort((object1, object2) => object1.randomFactor - object2.randomFactor)
-        .map(object => object.number)
+export function embaralhar(elementos: any[]): any[] {
+    return elementos
+        .map(valor => ({ valor, aleatorio: Math.random() }))
+        .sort((obj1, obj2) => obj1.aleatorio - obj2.aleatorio)
+        .map(obj => obj.valor)
 }
