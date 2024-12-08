@@ -21,15 +21,15 @@ A sleek, simple, and functional Quiz Web App built with [Next.js](https://nextjs
 
 ## 📁 File Structure
 
-nextjs-quiz-app/ 
-├── components/ # Reusable UI components 
-├── pages/ # Application routes 
-│ ├── index.js # Main quiz page 
-│ ├── api/ # API Folder 
-├── public/ # Static assets 
-├── styles/ # CSS Modules 
-├── package.json # Project metadata and scripts 
-└── README.md # You're here! 
+nextjs-quiz-app/<br>
+├── components/ # Reusable UI components<br>
+├── pages/ # Application routes<br>
+│ ├── index.js # Main quiz page<br>
+│ ├── api/ # API Folder<br>
+├── public/ # Static assets<br>
+├── styles/ # CSS Modules<br>
+├── package.json # Project metadata and scripts<br>
+└── README.md # You're here!<br>
 
 ## 🤝 Context
 
